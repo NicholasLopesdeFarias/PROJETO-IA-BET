@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 800px; /* Largura máxima do container */
+    margin: auto; /* Centraliza o container */
+}
+
+
+
+.carousel-item img {
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+    object-fit: cover; /* Ajusta o tamanho da imagem para cobrir o espaço */
+    height: auto; /* Define uma altura fixa para as imagens do carrossel */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para os controles */
+    border-radius: 50%; /* Tornar os ícones circulares */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Largura dos botões de controle */
+}
+
+
+
+.secao-como-funciona {
+    max-width: 50%;
+    text-align: right;
+    margin-left: auto;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+.secao-mais-sobre {
+    max-width: 70%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lista {
+    text-align: left;
+    padding-top: 120px;
+}
+
+.container1 {
+    display: flex; /* Cria um contêiner flexível */
+    justify-content: space-between; /* Espaça os itens para os extremos */
+    margin: 20px; /* Margem externa no contêiner */
+}
+
+.texto {
+    max-width: 40%; /* O texto ocupa o espaço disponível */
+    max-width: 50%;
+}
+
+.imagem {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+.imagem img {
+    flex: 1;
+    width: 255px; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.botao {
+    display: inline-block; /* Para que o link se comporte como um botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: rgb(1, 248, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.botao a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: rgb(1, 200, 220); /* Cor ao passar o mouse */
+    color: black
+}
+
+.secao-inicial img {
+    margin-bottom: 0px;
+}
+
+.colorido {
+    color: rgb(1, 248, 255);
+}
